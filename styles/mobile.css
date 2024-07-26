@@ -15,24 +15,48 @@
     display: none;
   }
 
-  nav {
+  nav ,.habit,.banner-text,.banner-image{
     width: 100%;
   }
 
   .ham {
     display: block;
+    color:white;
   }
 
   .banner {
     flex-direction: column;
     width:100%;
-    justify-content: center;
+    justify-content:left;
     align-items:left;
+    gap: 20px;
   }
+
+  .banner-title{
+    font-size: 3.25rem;
+  }
+
  .banner>div{
   width: 80%;
  }
 
+ 
+ .habit-title,.habit-des,.card{
+   text-align: center;
+   padding-left: 0;
+   padding-right: 0;
+ }
+
+
+.habit-title{
+  margin-top: 5px;
+ }
+
+ .card-container{
+  grid-template-columns:repeat(1,1fr);
+  gap:15px;
+
+ }
 
 
 }

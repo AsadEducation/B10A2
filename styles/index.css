@@ -7,8 +7,17 @@
     font-variation-settings:
         "slnt" 0;
 }
-
+*{
+    margin:0;
+    padding:0;
+}
 /* shared styles */
+
+section{
+    
+    width:1370px;
+    margin:0 auto;
+}
 
 .border{
     border:2px solid red;
@@ -21,6 +30,11 @@
    border-radius: 12px;
    width:30%;
    border: none;
+}
+
+
+main{
+    background-color: black;
 }
 
 
@@ -75,27 +89,38 @@ nav {
     width:1370px;
     margin:0 auto;
     display:flex;
-    justify-content: center;
-    gap:150px;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 70px;
     
 }
 
 .banner>div{
-    width:40%;
+    width:35%;
 }
 
 .banner-text{
     text-align: left;
+    height: max-content;
+    padding-left: 20px;
 }
 
 .banner-title{
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: white;
+    padding:20px 0;
 }
 
 .banner-des{
     color:rgba(255, 255, 255, 0.459);
+    font-size: 1.25rem;
+    padding:50px 0;
+}
+
+.first,.second{
+    width: max-content;
+    padding:20px;
+    border-radius: 30px;
 }
 
 .second{
@@ -130,17 +155,106 @@ nav {
   right:130px;
 }
 
-
-
-
-
-
 /* banner styles ends here  */
 
-/* header styles */
+
+/* header section styles */
 
 header{
-   background-color: rgba(0, 0, 0, 0.793);
+    background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(0, 0, 0, 0.771));
 }
 
-/* header styles ends  */
+
+
+/* header section styles ends  */
+
+
+
+/* habit section styles  */
+
+
+.habit-title,.habit-des{
+    text-align: center;
+    color:white;
+}
+
+.habit-title{
+    padding-top:90px;
+    padding-bottom: 20px;
+    font-size:2.5rem;
+}
+
+.habit-des{
+  color:rgba(255, 255, 255, 0.593);
+  padding:0 100px;
+  padding-bottom: 50px;
+  font-size:1.25rem;
+  margin-bottom:80px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.card>img{
+ border-radius: 100px;
+}
+
+.card-title,.card-des{
+    color:white;
+}
+
+.card-des{
+    color: rgba(255, 255, 255, 0.502);
+    padding:0 40px;
+    text-align: center;
+}
+
+/* habit section styles  ends */
+
+
+/* run section styles  */
+
+.run{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-text,.run-image{
+    width: 40%;
+}
+
+.run-title,.run-des{
+    color: white;
+}
+
+.run-title{
+    font-size: 3.5rem;
+}
+.run-des{
+    color: rgba(255, 255, 255, 0.576);
+}
+.run-image>img{
+    width:100%;
+    border-radius: 18px;
+}
+
+.run{
+    display: none;
+}
+
+/* run section styles */
