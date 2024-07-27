@@ -15,64 +15,109 @@
     display: none;
   }
 
-  nav ,
+  nav,
   .habit,
   .banner-text,
   .banner-image,
+  .run-text{
+    width: 100%;
+  }
+
   .run,
   .run-text,
-  .run-image,
-  .run-text .btn{
-    width: 80%;
+  .run-image{
+    width:90%;
   }
 
   .ham {
     display: block;
-    color:white;
+    color: white;
   }
 
   .banner {
     flex-direction: column;
-    width:100%;
-    justify-content:left;
-    align-items:left;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
     gap: 20px;
   }
 
-  .banner-title{
+  .banner-title {
     font-size: 3.25rem;
   }
 
- .banner>div{
-  width: 80%;
- }
-
- 
- .habit-title,.habit-des,.card{
-   text-align: center;
-   padding-left: 0;
-   padding-right: 0;
- }
+  .banner>div {
+    width: 80%;
+  }
 
 
-.habit-title{
-  margin-top: 5px;
- }
+  .habit-title,
+  .habit-des,
+  .card {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
- .card-container{
-  grid-template-columns:repeat(1,1fr);
-  gap:15px;
 
- }
+  /* .habit-title {
+    width: 90%;
+  } */
 
- .run{
-  flex-direction: column;
-  gap:30px;
-  padding:15px;
- }
- .run-title,.run-des{
-  padding-right: 0;
- }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+
+  }
+
+  .run {
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+  }
+
+  .run-title,
+  .run-des {
+    padding-right: 0;
+  }
+
+
+  .cal-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cal-info,
+  .cal-chart,
+  .cal-form,
+  .form-des {
+    width: 70%;
+  }
+
+  .cell{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+
+  .cal-title,
+  .cal-des,
+  .chart,
+  .chart-title{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cal-title,
+  .cal-des,
+  .chart-title,
+  .form-title,
+  .form-des {
+    text-align: left;
+  }
+
 
 
 }
