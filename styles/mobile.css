@@ -15,8 +15,15 @@
     display: none;
   }
 
-  nav ,.habit,.banner-text,.banner-image{
-    width: 100%;
+  nav ,
+  .habit,
+  .banner-text,
+  .banner-image,
+  .run,
+  .run-text,
+  .run-image,
+  .run-text .btn{
+    width: 80%;
   }
 
   .ham {
@@ -56,6 +63,15 @@
   grid-template-columns:repeat(1,1fr);
   gap:15px;
 
+ }
+
+ .run{
+  flex-direction: column;
+  gap:30px;
+  padding:15px;
+ }
+ .run-title,.run-des{
+  padding-right: 0;
  }
 
 

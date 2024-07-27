@@ -7,34 +7,46 @@
     font-variation-settings:
         "slnt" 0;
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
 /* shared styles */
 
-section{
-    
-    width:1370px;
-    margin:0 auto;
+section {
+
+    width: 1370px;
+    margin: 0 auto;
 }
 
-.border{
-    border:2px solid red;
+.border {
+    border: 2px solid red;
 }
 
-.btn{
-   background-color: rgb(230, 83, 60);
-   color:white;
-   padding:7px 12px;
-   border-radius: 12px;
-   width:30%;
-   border: none;
+.btn {
+    background-color: rgb(230, 83, 60);
+    color: white;
+    padding: 7px 12px;
+    border-radius: 12px;
+    width: 30%;
+    border: none;
 }
 
 
-main{
+main {
     background-color: black;
+}
+
+
+.title{
+    font-size: 2.5rem;
+    color:white;
+}
+
+.des{
+    color: rgba(255, 255, 255, 0.593);
 }
 
 
@@ -46,17 +58,17 @@ main{
 
 nav {
 
-    width:1300px; 
-    margin: 0 auto ;
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.fitness{
+.fitness {
     font-size: 2rem;
-    color:rgb(230, 83, 60);
+    color: rgb(230, 83, 60);
 }
 
 .menu {
@@ -68,15 +80,15 @@ nav {
     border-radius: 30px;
     height: fit-content;
     font-size: 1.25rem;
-    color:white;
+    color: white;
 }
 
-.Home{
-    background-color:rgb(230, 83, 60);
+.Home {
+    background-color: rgb(230, 83, 60);
     border-radius: 30px;
 }
 
-.ham{
+.ham {
     display: none;
 }
 
@@ -85,74 +97,76 @@ nav {
 
 /* banner styles */
 
-.banner{
-    width:1370px;
-    margin:0 auto;
-    display:flex;
+.banner {
+    width: 1370px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
-    
+
 }
 
-.banner>div{
-    width:35%;
+.banner>div {
+    width: 35%;
 }
 
-.banner-text{
+.banner-text {
     text-align: left;
     height: max-content;
     padding-left: 20px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 4.5rem;
     color: white;
-    padding:20px 0;
+    padding: 20px 0;
 }
 
-.banner-des{
-    color:rgba(255, 255, 255, 0.459);
+.banner-des {
+    color: rgba(255, 255, 255, 0.459);
     font-size: 1.25rem;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
-.first,.second{
+.first,
+.second {
     width: max-content;
-    padding:20px;
+    padding: 20px;
     border-radius: 30px;
 }
 
-.second{
+.second {
     margin-left: 20px;
     background-color: black;
 }
 
-.banner-image{
-    position:relative;
+.banner-image {
+    position: relative;
 }
 
-.banner-image >img {
-   float: right;
-   width:100%;
+.banner-image>img {
+    float: right;
+    width: 100%;
 }
 
-.special-btn-first,.special-btn-second{
-    position:absolute;
+.special-btn-first,
+.special-btn-second {
+    position: absolute;
     border: none;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.357);
-    color:white;
-    padding:15px;
-    width:max-content;
+    color: white;
+    padding: 15px;
+    width: max-content;
 }
 
-.special-btn-first{
- bottom:0;
+.special-btn-first {
+    bottom: 0;
 }
 
-.special-btn-second{
-  right:130px;
+.special-btn-second {
+    right: 130px;
 }
 
 /* banner styles ends here  */
@@ -160,8 +174,8 @@ nav {
 
 /* header section styles */
 
-header{
-    background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(0, 0, 0, 0.771));
+header {
+    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.771));
 }
 
 
@@ -173,52 +187,54 @@ header{
 /* habit section styles  */
 
 
-.habit-title,.habit-des{
+.habit-title,
+.habit-des {
     text-align: center;
-    color:white;
+    color: white;
 }
 
-.habit-title{
-    padding-top:90px;
+.habit-title {
+    padding-top: 90px;
     padding-bottom: 20px;
-    font-size:2.5rem;
+    font-size: 2.5rem;
 }
 
-.habit-des{
-  color:rgba(255, 255, 255, 0.593);
-  padding:0 100px;
-  padding-bottom: 50px;
-  font-size:1.25rem;
-  margin-bottom:80px;
+.habit-des {
+    color: rgba(255, 255, 255, 0.593);
+    padding: 0 100px;
+    padding-bottom: 50px;
+    font-size: 1.25rem;
+    margin-bottom: 80px;
 }
 
-.card-container{
+.card-container {
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
 
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
 }
 
-.card>img{
- border-radius: 100px;
+.card>img {
+    border-radius: 100px;
 }
 
-.card-title,.card-des{
-    color:white;
+.card-title,
+.card-des {
+    color: white;
 }
 
-.card-des{
+.card-des {
     color: rgba(255, 255, 255, 0.502);
-    padding:0 40px;
+    padding: 0 40px;
     text-align: center;
 }
 
@@ -227,34 +243,37 @@ header{
 
 /* run section styles  */
 
-.run{
+.run {
     margin-top: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding:40px;
 }
 
-.run-text,.run-image{
+
+
+.run-text,
+.run-image {
     width: 40%;
+    /* border:2px solid red; */
 }
 
 .run-title,.run-des{
-    color: white;
+    padding-right: 150px;
 }
 
-.run-title{
-    font-size: 3.5rem;
-}
 .run-des{
-    color: rgba(255, 255, 255, 0.576);
-}
-.run-image>img{
-    width:100%;
-    border-radius: 18px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
-.run{
-    display: none;
+
+.run-image>img {
+    width: 100%;
+    border-radius: 18px;
 }
 
 /* run section styles */
