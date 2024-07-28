@@ -19,7 +19,8 @@
   .habit,
   .banner-text,
   .banner-image,
-  .run-text{
+  .run-text,
+  .team{
     width: 100%;
   }
 
@@ -117,6 +118,18 @@
   .form-des {
     text-align: left;
   }
+
+  .team-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .team-container,
+  .team-des{
+     width:90%;
+     margin:auto;
+  }
+
+
 
 
 
