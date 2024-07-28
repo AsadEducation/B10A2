@@ -20,6 +20,7 @@
   .banner-text,
   .banner-image,
   .run-text,
+  .partner,
   .team{
     width: 100%;
   }
@@ -129,8 +130,15 @@
      margin:auto;
   }
 
+  .p-title,.p-des{
+    width: 90%;
+    color: rgba(0, 0, 0, 0.418);
+  }
 
-
+  .p-container{
+    grid-template-columns: repeat(3,100px);
+    gap:10px;
+  }
 
 
 }
