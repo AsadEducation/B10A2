@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -21,14 +24,14 @@
   .banner-image,
   .run-text,
   .partner,
-  .team{
+  .team {
     width: 100%;
   }
 
   .run,
   .run-text,
-  .run-image{
-    width:90%;
+  .run-image {
+    width: 90%;
   }
 
   .ham {
@@ -97,7 +100,7 @@
     width: 70%;
   }
 
-  .cell{
+  .cell {
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -107,7 +110,7 @@
   .cal-title,
   .cal-des,
   .chart,
-  .chart-title{
+  .chart-title {
     padding-left: 0;
     padding-right: 0;
   }
@@ -120,25 +123,63 @@
     text-align: left;
   }
 
-  .team-container{
-    grid-template-columns: repeat(1,1fr);
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .team-container,
-  .team-des{
-     width:90%;
-     margin:auto;
+  .team-des {
+    width: 90%;
+    margin: auto;
   }
 
-  .p-title,.p-des{
+  .p-title,
+  .p-des {
     width: 90%;
     color: rgba(0, 0, 0, 0.418);
   }
 
-  .p-container{
-    grid-template-columns: repeat(3,100px);
-    gap:10px;
+  .p-container {
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
   }
+
+
+
+  .foot-container {
+    width: 100%;
+    flex-direction: column;
+    gap:15px;
+    align-items: left;
+  }
+
+  .foot-container>div {
+    width: 80%;
+    /* text-align: left; */
+  }
+
+  .foot-title {
+    font-size: 2.25rem;
+  }
+
+  .foot-des,
+  .last-des {
+    font-style: normal;
+    font-size: 1rem;
+  }
+
+  .last-title{
+    font-size:1.5rem;
+  }
+
+  .h-line {
+    width: 80%;
+  }
+
+
+
+
+
 
 
 }
